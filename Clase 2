@@ -1,0 +1,25 @@
+Otros tipos de datos: Listas y Toplas
+
+-> Listas
+	Estructura de datos
+	Manejar grandes cantidades de datos
+
+	int, string, doble, float, bool, listas
+
+-> En tiempo de ejecucion esta puede crecer o decrecer en tamaño
+
+*Caracteristicas:
+	-Los elementos de cada lista estaran limitadas por una posicion (0 - n-1)
+
+
+
+-> INDEXACION
+
+[:] todos los elementos de la lista
+[start : ]todos los elementos desde el indice establecido
+[:end] todos los elementos desde el indice 0 hasta el establecido
+[start : end] todos los elementos dentro de un rango establecido
+[start : end : step] todos los elementos dentro de un rango establecido
+
+**Python cuenta ya con funciones de ordenamiento preestablecidas
+
