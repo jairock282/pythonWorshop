@@ -1,0 +1,8 @@
+##Cambio base
+
+num = 0
+
+print("Ingresa un numero")
+num = int(inpu())
+
+

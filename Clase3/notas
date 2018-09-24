@@ -1,0 +1,61 @@
+Diccionarios
+
+->Estructura de datos mutable: cabia de tamaño y de datos
+->Se trabajan a traves de llaves {}
+->Cada valor que utilicemos en el diccionario debe ir con una llave
+
+Lo que va dentro de la llave puede ser cualquier tipo de dato inmutable (String, int, etc)
+Para definir la llave es "nomLlave":valor y separamos con comas
+Las llaves pueden ser de cualquier tipo de dato
+
+Para acceder a las posiciones lo haremos mediante su llave
+	nomDic["nomLlave"] = newValue
+
+Cuando se tienen llaves implicadas, es decir, cuando se repite la llave el ultimo valor
+que recibe es el valor que tomara
+
+	diccionario = {"a":1, "b":2, "a":5}
+
+		a = 5 
+
+Si intentamos acceder a una llave que no esta definida en el diccionario
+marcara un ERROR
+
+*Para verificar si existe cierta llave en el diccionario
+	resultado = "key" in nomDic
+
+	opcion 2:
+
+	print(nomDic.get("key"))
+
+
+Podemos definir valores predeterminados a las llaves, si no existe en el 
+diccionario se creara y se rellenara
+	resultado = diccionario.setdefault("key", valorDefault)
+
+
+*Ver cuantas llaves hay en el diccionario
+	nomDic.key()
+
+->Devuelve un objectDirectKey, para poder manejarlos se debe transformar a un 
+tipo de estructur mas manejable, listas o tupla
+
+
+Obtener todos los valores del diccionario
+	nomDic.values()
+
+Obtener todas las llaves y valores
+	nomDic.items()
+
+
+Contar elementos
+	print(len(diccionario))
+
+Borrar elementos del diccionario
+	del nomDic["llave"]
+
+	opcion2:
+	nomDic.pop("key")
+
+
+**El valor none representa la ausencia de valor y/o false**
