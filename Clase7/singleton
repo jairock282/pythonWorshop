@@ -1,0 +1,39 @@
+Patron de diseño
+
+SINGLETON:
+*Garantiza que una clase solo tenga una instancia y 
+solo tenga un solo punto de acceso
+
+*La propia clase es la responsable de su única instancia. La clase
+puede garantizar que no se..
+
+CUANDO USARLO?
+
+*Debe haer una slo instancia de una clase y esta debe ser accesible
+a los clientes desde un punto de acceso conocido
+
+*La única instancia debería ser extensible mediante herencia, y los
+clientes deberían ser capaces de usar una instancia 
+
+UML
++ -> público
+- -> privado
+
+*Los clientes van a poder acceder a la instancia de un Singleton
+a traves del metodo de instancia de este mismo
+
+BENEFICIOS
+
+-Proporciona acceso controlado a una unica instancia
+
+-Espacio de nombre reducido(Evta contaminar el espacio de nombre con variables
+globales que almacenen las instancias)
+
+-Permite refinamiento de operacion y la representacion(Se puede crear
+subclases de manera más sencilla y es facil configurar una aplicación
+con una instancia de esa clase extendida)
+
+CLASE INTERNA PRIVADA PYTHON
+
+cuando se unicia con doble guion bajo significa que esa clase o metodo es privado
+
